@@ -1,0 +1,10 @@
+.print-btn{
+  background-color: #ffffff;
+  border: none
+}
+
+@media all and (max-width: 365px){
+  .admin-profile-price{
+    display: none;
+  }
+}

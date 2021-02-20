@@ -1,0 +1,82 @@
+.catalog-section{
+    padding-bottom: 100px;
+    background: #f9f9fa;
+}
+
+.btn_go-catalog{
+    background: inherit;
+    border-style: groove;
+    padding: 10px 2%;
+    border-width: 1px;
+}
+
+.block_go-catalog{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.catalog-secrtion-container{
+    padding-top: 40px;
+}
+
+/* / */
+
+
+.catalog{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+@media all and (max-width: 767px){
+
+}
+
+.catalog a{
+    color: #000;
+}
+
+.catalog a:hover{
+    text-decoration: none;
+}
+
+.card-in-catalog-home-page{
+    width: 265px;
+    margin-bottom: 20px;
+}
+
+.photo-in-promo-catalog{
+    /* width: 100%; */
+    width: 265px;
+    height: 300px;
+}
+
+.photo-in-catalog-of-bmx{
+    background: url('https://www.hellride.ru/upload/resize_cache/iblock/81f/742_500_140cd750bba9870f18aada2478b24840a/81f6811b2f22436ee5be35afb36108dc.jpg') no-repeat;
+    background-size: cover;
+}
+
+.photo-in-catalog-of-kick-scooter{
+    background: url('https://www.hellride.ru/upload/iblock/167/167796d1238aa166efbb3a553434ade9.jpg') no-repeat;
+    background-size: cover;
+}
+
+.photo-in-catalog-of-rollers{
+    background: url('https://opt-1637796.ssl.1c-bitrix-cdn.ru/upload/iblock/9bd/9bd84ceb874111885c05b11b5cdcaeac.jpg?160229730236484') no-repeat;
+    background-size: cover;
+}
+
+.photo-in-catalog-of-mtb{
+    background: url('https://opt-1637796.ssl.1c-bitrix-cdn.ru/upload/resize_cache/iblock/839/450_450_140cd750bba9870f18aada2478b24840a/83998b1a90554f8fd0056688816604fd.jpg?160479768116748') no-repeat;
+    background-size: cover;
+}
+
+.promo-card-product{
+    background: #fff;
+    padding-bottom: 10px;
+}
+
+.promo-card-product:hover{
+    opacity: 0.9;
+}

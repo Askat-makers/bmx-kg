@@ -1,0 +1,30 @@
+.btn-favorite-details{
+  background-color: #ffffff;
+  border: 1px solid black;
+  margin-left: 15px;
+}
+
+.save-comment-btn{
+  border-color: #ff6410;
+  background-color: #ff6410;
+  color: #ffffff;
+}
+
+@media all and (max-width: 900px){
+
+  .comment{
+    width: 70% !important;
+  }
+}
+
+@media all and (max-width: 650px){
+  .comment-area{
+    height: 100px !important;
+  }
+}
+
+@media all and (max-width: 500px){
+  .userComment-span{
+    display: block !important;
+  }
+}

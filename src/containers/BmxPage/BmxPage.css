@@ -1,0 +1,68 @@
+.bmx-products-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container-bmx-list{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-block-product-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-favorite-block{
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+}
+
+.card-price{
+    font-size: 20px;
+}
+
+.products-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.product-card{
+    margin: 10px 10px;
+}
+
+.parametr-title{
+    margin: 0;
+    text-align: center;
+}
+
+.reset-filter{
+    border: 1px solid black;
+    background-color: #ff6410;
+    color: #ffffff;
+    border-color: #ff6410;
+    padding: 5px;
+}
+
+@media all and (max-width: 411px){
+    .parametr-block{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parametr-price{
+        margin-left: 55px;
+        margin-right: 55px;
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 560px){
+    .parametr-block{
+        margin-bottom: 10px;
+    }
+}

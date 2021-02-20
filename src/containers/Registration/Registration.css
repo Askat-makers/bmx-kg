@@ -1,0 +1,53 @@
+.register-page{
+  background: url(../../img/backForRegister.png);
+  height: 600px;
+  background-size: contain;
+}
+
+.register-block{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 100px;
+  margin-bottom: 100px; */
+}
+
+.register-block-only{
+  padding: 80px;
+  padding-top: 40px;
+  margin: 150px 0;
+  background-color: gainsboro;
+  /* opacity: 0.9; */
+}
+
+.register-title{
+  font-size: 30px;
+}
+
+.register-input{
+  background-color: white;
+}
+
+.label-register{
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.btn-register{
+  background-color: #000000;
+  border: #000000;
+  color: #ffffff;
+  margin-top: 15px;
+
+}
+
+.btn-register:hover{
+  background-color: #000000;
+}
+
+.btn-register:active{
+  background-color: #000000;
+}
+
+.btn-register:focus{
+  background-color: #000000;
+}

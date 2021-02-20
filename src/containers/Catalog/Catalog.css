@@ -1,0 +1,64 @@
+.container_catalog{
+    max-width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 170px;
+}
+
+h2{
+    text-align: center;
+}
+
+.block-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.catalog-img{
+    width: 150px;
+    height: 150px;
+}
+
+.bmx{
+    background: url(https://opt-1637796.ssl.1c-bitrix-cdn.ru/upload/iblock/07f/07fc1b5b16d80fb5341887aed2183c5a.png?16030622017297) no-repeat;
+    background-size: contain;
+    
+}
+
+/* .mtb{
+    background: url(https://opt-1637796.ssl.1c-bitrix-cdn.ru/upload/iblock/c54/c54ba830b6430ef8dc7a29d8151695e6.png?16030623303377) no-repeat;
+    background-size: contain;
+} */
+
+.samokat{
+    background: url(https://opt-1637796.ssl.1c-bitrix-cdn.ru/upload/iblock/859/859d8a1847c10dd5097bbd742eea3a1c.png?16030622512451) no-repeat;
+    background-size: contain;
+}
+
+.skate{
+    background: url(https://opt-1637796.ssl.1c-bitrix-cdn.ru/upload/iblock/680/6803c634627888aeb28c57c7a20d8695.png?16030622412977) no-repeat;
+    background-size: contain;
+}
+
+.roller{
+    background: url(https://opt-1637796.ssl.1c-bitrix-cdn.ru/upload/iblock/31c/31cb6e749fffd6599464db068c1cb0e0.png?16030623095114) no-repeat;
+    background-size: contain;
+}
+
+.accessories{
+    background: url(https://opt-1637796.ssl.1c-bitrix-cdn.ru/upload/iblock/2df/2dff14c9b8b641494c015d7a8ac60d37.png?16030623193427) no-repeat;
+    background-size: contain;
+}
+
+.block-card p{
+    margin-bottom: 0;
+}
+
+@media all and (max-width: 400px){
+    .catalog-card-1{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+}

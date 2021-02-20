@@ -1,0 +1,28 @@
+.card__number {
+    font-size: 17px;
+    font-family: Courier, monospace;
+    width: auto;
+  }
+  
+  .card__name {
+    font-size: 17px;
+    font-family: Courier, monospace;
+    width: auto;
+  }
+  
+  .card__cvc {
+    font-size: 17px;
+    font-family: Courier, monospace;
+    width: auto;
+  }
+  
+  .card__expiry {
+    font-size: 17px;
+    font-family: Courier, monospace;
+    width: auto;
+  }
+  
+  .payment__input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }

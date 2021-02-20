@@ -1,0 +1,28 @@
+.favorite-cards{
+    flex-wrap: wrap;
+}
+
+@media all and (max-width: 775px){
+    .favorite-img{
+        width: 60% !important;
+    }
+}
+
+@media all and (max-width: 435px){
+    .favorite-img{
+        width: 80% !important;
+    }
+}
+
+@media all and (max-width: 345px){
+    /* .favorite-img{
+        max-width: 30% !important;
+    } */
+    .favorite-cards{
+        display: block !important;
+    }
+    .favorite-description{
+        align-items: center !important;
+        margin: 0 !important;
+    }
+}

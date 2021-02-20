@@ -1,0 +1,27 @@
+.cart-image{
+    width: 150px;
+}
+
+.container-cart-page{
+    max-width: 1268px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cart-count{
+    width: 60px;
+}
+
+.cart-price{
+    width: 175px;
+}
+
+.cart-icon{
+    width: 250px;
+}
+
+@media all and (max-width: 363px){
+    .cart-nazavanie{
+        display: none;
+    }
+}

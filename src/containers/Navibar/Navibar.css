@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/* .navbar-logo{
+    background: url(../../img/2602557.svg) no-repeat;
+    background-size: cover;
+} */
+
+.navbar{
+    padding: 0;
+    max-width: 100%;
+}
+nav{
+    background-color: #fff;
+    background-color: black;
+    /* height: 80px; */
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #919191;
+}
+
+
+.under-navbar{
+    font-family: 'Nerko One', cursive;
+    font-size: 35px;
+}
+
+.under-navbar a{
+    /* color: #000000; */
+    color: #ff6410;
+
+}
+.under-navbar a:hover{
+    text-decoration: none;
+}
+
+.under-navbar-block{
+    max-width: 1327px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* color: #ff6410; */
+}
+
+.search-block{
+    width: 100px;
+}
+
+.navbar-img{
+    width: 50px;
+}
+
+.navibar-btn{
+    width: 100%;
+}
+
+@media all and (max-width: 992px){
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar{
+        margin-top: 50px;
+    }
+}
+/* @media all and (max-width: 669px){
+    .under-navbar-block{
+        display: block;
+    }
+    .under-navbar{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .search-block{
+        margin-right: auto;
+        margin-left: auto;
+    }
+} */
